@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding-left: 10px;
+}
+
+.nav-menu-logo{
+    height: 30px;
+}
+.search-box{
+    width: 100%;
+    height: 90%;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px 0 0 40px;
+}
+.searchIcon{
+    background: #d5d5d5;
+    border-radius: 0 40px 40px 0;
+    width: 45px;
+    height: 90%;
+    padding-left: 5px;
+}
+.nav-right-col div{
+    padding-right:10px ;
+}
+
+/* --------left navbar------------------ */
+
+.nav-left-text{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    overflow: hidden;
+    
+}
+.SubscriptionsImg{
+    border-radius: 50px;
+}
+
+
+/* ---------filter tab-------------------- */
+
+.filter-tab{
+   width: 500px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  white-space: nowrap;
+}
+.filter-tab::-webkit-scrollbar{
+    display: none;
+}
+.filter-tab span{
+
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    text-transform: capitalize;
+    margin-right: 10px;
+    color: #242424;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.filter-tab span.active{
+    color: #fff;
+    background: #000;
+}
+.Video-title{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+.channel-views{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.c-pointer {
+    cursor: pointer;
+   }
+
+   .side-bar-link{
+   border-radius: 10px;
+   }
+
+   .side-bar-link:hover, .side-bar-link.active{
+    background: rgba(0, 0, 0, 0.1);
+
+   }
+
+   .filter-link:hover, filter-link.active{
+    background: rgba(0, 0, 0, 0.1);
+   }
+.h-over:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.video:hover{
+    border-radius:0 !important;
+}
+
+
+
+
+
+.video-container{
+    
+    padding: 30px;
+  
+   
+}
+
+
+
+
+
+
+@media (max-width: 425px) {
+    .header__search {
+      display: none;
+    }
+    .material-icons {
+      display: none;
+    }
+    .header__icons .display-this {
+      display: inline;
+    }
+    .sidebar {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .header__search {
+      display: none;
+    }
+    .sidebar {
+      display: none;
+    }
+    .show-sidebar {
+      display: inline;
+      position: fixed;
+      top: 4.4rem;
+      height: auto;
+    }
+  }
+  /* @media (max-width: 941px) {
+    .header__search input {
+      width: 300px;
+    }
+} */

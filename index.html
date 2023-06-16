@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YouTube Clone</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row py-3">
+            <div class="nav-menu-logo col-sm-3 col-4 d-flex align-items-center">
+                <img class="material-icons me-3 d-sm-block d-none c-pointer" width="20px" src="images/menuIcon.png" alt="">
+               <a href="index.html"><img width="110px" src="images/logo.png" alt="" class="c-pointer"></a> 
+            </div>
+            <div class="col">
+                <div class="row d-sm-flex align-items-center d-none">
+                    <div class="col">
+                        <div class="row">
+                            <div class="header__search col-9 rounded-4  d-flex align-items-center justify-content-between">
+                                <input class="search-box fs-6" placeholder="Search" type="text">
+                                <img class="searchIcon p-2 c-pointer" src="images/searchIcon.png" alt="">
+                            </div>
+                            <div class="col d-flex align-items-center">
+                                <img class="material-icons h-over" width="25px" src="images/micIcon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-7 d-flex justify-content-between align-items-center" style="padding-right: 20px;">
+                <div style="padding-right: 10px;">
+                    <img width="25px"  src="images/createVideoIcon.png" alt="" class="material-icons h-over">
+                </div>
+                <div style="padding-right: 10px;">
+                    <img width="25px" src="images/notificationIcon.png" alt="" class="material-icons h-over">
+                </div>
+                <div>
+                    <img class="d-sm-none d-block" width="20px" src="images/searchIcon.png" alt="">
+                </div>
+                <div>
+                    <img width="30px" src="images/userIcon.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="sidebar col-md-2 col-1 d-sm-block d-none">
+                <div class="row py-2 c-pointer side-bar-link active">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4" src="images/homeIcon.png" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Home</p>
+                    </div>
+                </div>
+                
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <svg class="me-4" height="25px" width="25px" focusable="false" style="pointer-events: none; display: block;"><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"></path></svg>
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Shorts</p>
+                    </div>
+                </div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4" src="images/subscriptionsIcon.png" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Subscriptions</p>
+                    </div>
+                </div>
+
+                <hr>
+                <div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4" src="images/libraryIcon.png" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Library</p>
+                    </div>
+                </div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4" src="images/historyIcon.png" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">History</p>
+                    </div>
+                </div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4" src="images/yourVideo.png" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Your Videos</p>
+                    </div>
+                </div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4" src="images/watchLater.png" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Watch Later</p>
+                    </div>
+                </div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <svg class="me-4" height="25px" width="25px" focusable="false" style="pointer-events: none; display: block;"><path d="M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11H3v10h4h1h9.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z M7,20H4v-8h3V20z M19.98,13.17l-1.34,6 C18.54,19.65,18.03,20,17.43,20H8v-8.61l5.6-6.06C13.79,5.12,14.08,5,14.38,5c0.26,0,0.5,0.11,0.63,0.3 c0.07,0.1,0.15,0.26,0.09,0.47l-1.52,4.94L13.18,12h1.35h4.23c0.41,0,0.8,0.17,1.03,0.46C19.92,12.61,20.05,12.86,19.98,13.17z"></path></svg>
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Liked Videos</p>
+                    </div>
+                </div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4" src="images/showMore.png" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Show More</p>
+                    </div>
+                </div>
+                    
+                </div>
+                <hr>
+
+                <h3 style="font-size: 15px;">Subscriptions</h3>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4 SubscriptionsImg" src="images/Subscription1.jpeg" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Yellow Brick Cinema</p>
+                    </div>
+                </div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4 SubscriptionsImg" src="images/Subscription2.jpeg" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Brototype Malayalam</p>
+                    </div>
+                </div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4 SubscriptionsImg" src="images/Subscription3.jpeg" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Durga Software Solutions</p>
+                    </div>
+                </div>
+                <div class="row py-2 c-pointer side-bar-link">
+                    <div class="col d-flex">
+                        <img width="20px" height="20px" class="me-4 SubscriptionsImg" src="images/Subscription4.jpeg" alt="">
+                        <p class="nav-left-text d-md-block d-none m-0 p-0 ">Easy Tutorials</p>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="col-md-10 col-12 col-sm-11">
+                <div class="row my-1 py-1">
+                    <div class="filter-tab col d-flex overflow-hidden">
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1 active">All</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">Computer programming</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">Mixes</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">Music</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">News</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">Live</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">Thoughts</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">Filmi</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">Tamil Cinema</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">Animated Films</span>
+                        <span class="filter-link border rounded-2 px-2 bg-opacity-25 mx-1 py-1">Indian Cuisine</span>
+                       
+                    </div>
+                </div>
+
+                <div class="video-container row my-3">
+
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row bg-white position-fixed bottom-0 d-sm-none d-flex">
+            <div class="col"><img class="w-75" src="images/homeIcon.png" alt=""></div>
+            <div class="col"><img class="w-75" src="images/shortsIcon.png" alt=""></div>
+            <div class="col"><img class="w-75" src="images/plusIcon.png" alt=""></div>
+            <div class="col"><img class="w-75" src="images/subscriptionsIcon.png" alt=""></div>
+            <div class="col"><img class="w-75" src="images/libraryIcon.png" alt=""></div>
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+
+        const searchInput = document.querySelector('.search-box');
+        const searchBtn = document.querySelector('.searchIcon');
+        let searchLink = "https://www.youtube.com/results?search_query=";
+        searchBtn.addEventListener('click', () => {
+    if(searchInput.value.length){
+        location.href = searchLink + searchInput.value;
+    }
+})
+searchInput.addEventListener('click', () => {
+    if(searchInput.value.length){
+        location.href = searchLink + searchInput.value;
+    }
+})
+
+    </script>
+</body>
+
+</html>
